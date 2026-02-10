@@ -1,0 +1,635 @@
+{
+  "meta": {
+    "city_name": "Sample City",
+    "population": 1500000.0,
+    "population_growth": 0.015,
+    "gdp_per_capita": 18000.0,
+    "gdp_growth": 0.02
+  },
+  "urban_modifiers": {
+    "transport": 0.6861054115166517,
+    "residential": 0.95,
+    "energy": 0.95
+  },
+  "base_summary": {
+    "total_co2e": 172536.11499999996,
+    "per_capita_co2e": 0.11502407666666664,
+    "per_gdp_co2e": 6.39022648148148e-06
+  },
+  "base_sector_results": [
+    {
+      "sector": "transport",
+      "activity": 800000000.0,
+      "co2": 144000.0,
+      "ch4": 160.0,
+      "n2o": 80.0,
+      "co2e": 169680.0
+    },
+    {
+      "sector": "energy",
+      "activity": 2300000.0,
+      "co2": 805.0,
+      "ch4": 2.76,
+      "n2o": 2.07,
+      "co2e": 1430.83
+    },
+    {
+      "sector": "industry",
+      "activity": 450000.0,
+      "co2": 540.0,
+      "ch4": 0.8999999999999999,
+      "n2o": 0.49500000000000005,
+      "co2e": 696.375
+    },
+    {
+      "sector": "residential",
+      "activity": 1200000.0,
+      "co2": 300.0,
+      "ch4": 1.8,
+      "n2o": 0.96,
+      "co2e": 604.8
+    },
+    {
+      "sector": "waste",
+      "activity": 180000.0,
+      "co2": 9.0,
+      "ch4": 3.6,
+      "n2o": 0.054,
+      "co2e": 124.11
+    }
+  ],
+  "forecast": [
+    {
+      "year": 2025,
+      "scenario": "Baseline",
+      "total_co2e": 119172.69972614545,
+      "per_capita_co2e": 0.07944846648409697,
+      "per_gdp_co2e": 4.413803693560943e-06,
+      "population": 1500000.0,
+      "gdp": 27000000000.0,
+      "baseline_total": 119172.69972614545,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2026,
+      "scenario": "Baseline",
+      "total_co2e": 120965.42938078764,
+      "per_capita_co2e": 0.0794518419578244,
+      "per_gdp_co2e": 4.327442372430523e-06,
+      "population": 1522499.9999999998,
+      "gdp": 27953099999.999996,
+      "baseline_total": 120965.42938078764,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2027,
+      "scenario": "Baseline",
+      "total_co2e": 122785.15276342446,
+      "per_capita_co2e": 0.07945523405950124,
+      "per_gdp_co2e": 4.242771693552759e-06,
+      "population": 1545337.4999999995,
+      "gdp": 28939844429.999992,
+      "baseline_total": 122785.15276342446,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2028,
+      "scenario": "Baseline",
+      "total_co2e": 124632.27683563928,
+      "per_capita_co2e": 0.07945864287103852,
+      "per_gdp_co2e": 4.159758547232049e-06,
+      "population": 1568517.5624999993,
+      "gdp": 29961420938.37899,
+      "baseline_total": 124632.27683563928,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2029,
+      "scenario": "Baseline",
+      "total_co2e": 126507.21470455265,
+      "per_capita_co2e": 0.07946206847475087,
+      "per_gdp_co2e": 4.078370472389126e-06,
+      "population": 1592045.3259374995,
+      "gdp": 31019059097.503765,
+      "baseline_total": 126507.21470455265,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2030,
+      "scenario": "Baseline",
+      "total_co2e": 128410.38571582726,
+      "per_capita_co2e": 0.07946551095335835,
+      "per_gdp_co2e": 3.998575643851851e-06,
+      "population": 1615926.0058265617,
+      "gdp": 32114031883.64565,
+      "baseline_total": 128410.38571582726,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2031,
+      "scenario": "Baseline",
+      "total_co2e": 130342.21554808514,
+      "per_capita_co2e": 0.07946897038998856,
+      "per_gdp_co2e": 3.9203428598950946e-06,
+      "population": 1640164.89591396,
+      "gdp": 33247657209.138336,
+      "baseline_total": 130342.21554808514,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2032,
+      "scenario": "Baseline",
+      "total_co2e": 132303.13630875733,
+      "per_capita_co2e": 0.07947244686817852,
+      "per_gdp_co2e": 3.843641530024792e-06,
+      "population": 1664767.3693526692,
+      "gdp": 34421299508.62092,
+      "baseline_total": 132303.13630875733,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2033,
+      "scenario": "Baseline",
+      "total_co2e": 134293.58663138855,
+      "per_capita_co2e": 0.07947594047187677,
+      "per_gdp_co2e": 3.7684416630014055e-06,
+      "population": 1689738.8798929593,
+      "gdp": 35636371381.27524,
+      "baseline_total": 134293.58663138855,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2034,
+      "scenario": "Baseline",
+      "total_co2e": 136314.01177441922,
+      "per_capita_co2e": 0.07947945128544545,
+      "per_gdp_co2e": 3.6947138550981054e-06,
+      "population": 1715084.9630913534,
+      "gdp": 36894335291.03425,
+      "baseline_total": 136314.01177441922,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2035,
+      "scenario": "Baseline",
+      "total_co2e": 138364.86372146657,
+      "per_capita_co2e": 0.07948297939366225,
+      "per_gdp_co2e": 3.6224292785890453e-06,
+      "population": 1740811.2375377235,
+      "gdp": 38196705326.807755,
+      "baseline_total": 138364.86372146657,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2036,
+      "scenario": "Baseline",
+      "total_co2e": 140446.6012831283,
+      "per_capita_co2e": 0.07948652488172253,
+      "per_gdp_co2e": 3.5515596704632517e-06,
+      "population": 1766923.406100789,
+      "gdp": 39545049024.844055,
+      "baseline_total": 140446.6012831283,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2037,
+      "scenario": "Baseline",
+      "total_co2e": 142559.69020033174,
+      "per_capita_co2e": 0.07949008783524122,
+      "per_gdp_co2e": 3.482077321359674e-06,
+      "population": 1793427.2571923009,
+      "gdp": 40940989255.42105,
+      "baseline_total": 142559.69020033174,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2038,
+      "scenario": "Baseline",
+      "total_co2e": 144704.60324925237,
+      "per_capita_co2e": 0.07949366834025508,
+      "per_gdp_co2e": 3.4139550647191012e-06,
+      "population": 1820328.6660501852,
+      "gdp": 42386206176.13741,
+      "baseline_total": 144704.60324925237,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2039,
+      "scenario": "Baseline",
+      "total_co2e": 146881.82034782507,
+      "per_capita_co2e": 0.07949726648322465,
+      "per_gdp_co2e": 3.347166266148649e-06,
+      "population": 1847633.5960409376,
+      "gdp": 43882439254.15505,
+      "baseline_total": 146881.82034782507,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2040,
+      "scenario": "Baseline",
+      "total_co2e": 149091.82866387308,
+      "per_capita_co2e": 0.07950088235103644,
+      "per_gdp_co2e": 3.2816848129946863e-06,
+      "population": 1875348.0999815518,
+      "gdp": 45431489359.82674,
+      "baseline_total": 149091.82866387308,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2041,
+      "scenario": "Baseline",
+      "total_co2e": 151335.1227248784,
+      "per_capita_co2e": 0.07950451603100495,
+      "per_gdp_co2e": 3.2174851041200985e-06,
+      "population": 1903478.3214812747,
+      "gdp": 47035220934.228615,
+      "baseline_total": 151335.1227248784,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2042,
+      "scenario": "Baseline",
+      "total_co2e": 153612.20452941972,
+      "per_capita_co2e": 0.07950816761087476,
+      "per_gdp_co2e": 3.1545420398818834e-06,
+      "population": 1932030.4963034936,
+      "gdp": 48695564233.20688,
+      "baseline_total": 153612.20452941972,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2043,
+      "scenario": "Baseline",
+      "total_co2e": 155923.58366030257,
+      "per_capita_co2e": 0.07951183717882278,
+      "per_gdp_co2e": 3.0928310123051632e-06,
+      "population": 1961010.9537480457,
+      "gdp": 50414517650.63908,
+      "baseline_total": 155923.58366030257,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2044,
+      "scenario": "Baseline",
+      "total_co2e": 158269.77739940747,
+      "per_capita_co2e": 0.07951552482346017,
+      "per_gdp_co2e": 3.0323278954497464e-06,
+      "population": 1990426.1180542663,
+      "gdp": 52194150123.706635,
+      "baseline_total": 158269.77739940747,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2045,
+      "scenario": "Baseline",
+      "total_co2e": 160651.31084428297,
+      "per_capita_co2e": 0.07951923063383469,
+      "per_gdp_co2e": 2.9730090359654897e-06,
+      "population": 2020282.5098250804,
+      "gdp": 54036603623.07348,
+      "baseline_total": 160651.31084428297,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2046,
+      "scenario": "Baseline",
+      "total_co2e": 163068.7170265093,
+      "per_capita_co2e": 0.07952295469943275,
+      "per_gdp_co2e": 2.9148512438327305e-06,
+      "population": 2050586.7474724562,
+      "gdp": 55944095730.96796,
+      "baseline_total": 163068.7170265093,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2047,
+      "scenario": "Baseline",
+      "total_co2e": 165522.5370318602,
+      "per_capita_co2e": 0.07952669711018152,
+      "per_gdp_co2e": 2.8578317832841835e-06,
+      "population": 2081345.5486845428,
+      "gdp": 57918922310.271126,
+      "baseline_total": 165522.5370318602,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2048,
+      "scenario": "Baseline",
+      "total_co2e": 168013.32012229052,
+      "per_capita_co2e": 0.07953045795645125,
+      "per_gdp_co2e": 2.8019283639047463e-06,
+      "population": 2112565.731914811,
+      "gdp": 59963460267.8237,
+      "baseline_total": 168013.32012229052,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2049,
+      "scenario": "Baseline",
+      "total_co2e": 170541.6238597763,
+      "per_capita_co2e": 0.07953423732905726,
+      "per_gdp_co2e": 2.747119131905704e-06,
+      "population": 2144254.217893533,
+      "gdp": 62080170415.27787,
+      "baseline_total": 170541.6238597763,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2050,
+      "scenario": "Baseline",
+      "total_co2e": 173108.0142320374,
+      "per_capita_co2e": 0.07953803531926233,
+      "per_gdp_co2e": 2.6933826615699422e-06,
+      "population": 2176418.0311619355,
+      "gdp": 64271600430.93717,
+      "baseline_total": 173108.0142320374,
+      "change_vs_baseline_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "scenario": "Mitigation",
+      "total_co2e": 100908.69185222364,
+      "per_capita_co2e": 0.06727246123481576,
+      "per_gdp_co2e": 3.7373589574897643e-06,
+      "population": 1500000.0,
+      "gdp": 27000000000.0,
+      "baseline_total": 119172.69972614545,
+      "change_vs_baseline_pct": -15.325664280403014
+    },
+    {
+      "year": 2026,
+      "scenario": "Mitigation",
+      "total_co2e": 102425.79207765698,
+      "per_capita_co2e": 0.0672747402808913,
+      "per_gdp_co2e": 3.6642015403535563e-06,
+      "population": 1522499.9999999998,
+      "gdp": 27953099999.999996,
+      "baseline_total": 120965.42938078764,
+      "change_vs_baseline_pct": -15.326393167067302
+    },
+    {
+      "year": 2027,
+      "scenario": "Mitigation",
+      "total_co2e": 103965.71820342481,
+      "per_capita_co2e": 0.06727703055379478,
+      "per_gdp_co2e": 3.5924767479278686e-06,
+      "population": 1545337.4999999995,
+      "gdp": 28939844429.999992,
+      "baseline_total": 122785.15276342446,
+      "change_vs_baseline_pct": -15.327125581917771
+    },
+    {
+      "year": 2028,
+      "scenario": "Mitigation",
+      "total_co2e": 105528.81400597123,
+      "per_capita_co2e": 0.0672793321088308,
+      "per_gdp_co2e": 3.522156516642187e-06,
+      "population": 1568517.5624999993,
+      "gdp": 29961420938.37899,
+      "baseline_total": 124632.27683563928,
+      "change_vs_baseline_pct": -15.32786154172649
+    },
+    {
+      "year": 2029,
+      "scenario": "Mitigation",
+      "total_co2e": 107115.42844614579,
+      "per_capita_co2e": 0.06728164500157637,
+      "per_gdp_co2e": 3.4532133327914455e-06,
+      "population": 1592045.3259374995,
+      "gdp": 31019059097.503765,
+      "baseline_total": 126507.21470455265,
+      "change_vs_baseline_pct": -15.328601063342365
+    },
+    {
+      "year": 2030,
+      "scenario": "Mitigation",
+      "total_co2e": 108725.91574752462,
+      "per_capita_co2e": 0.06728396928788226,
+      "per_gdp_co2e": 3.3856202217602657e-06,
+      "population": 1615926.0058265617,
+      "gdp": 32114031883.64565,
+      "baseline_total": 128410.38571582726,
+      "change_vs_baseline_pct": -15.32934416369129
+    },
+    {
+      "year": 2031,
+      "scenario": "Mitigation",
+      "total_co2e": 110360.63547591786,
+      "per_capita_co2e": 0.06728630502387437,
+      "per_gdp_co2e": 3.3193507374584132e-06,
+      "population": 1640164.89591396,
+      "gdp": 33247657209.138336,
+      "baseline_total": 130342.21554808514,
+      "change_vs_baseline_pct": -15.330090859776568
+    },
+    {
+      "year": 2032,
+      "scenario": "Mitigation",
+      "total_co2e": 112019.95262008063,
+      "per_capita_co2e": 0.06728865226595512,
+      "per_gdp_co2e": 3.254378951963301e-06,
+      "population": 1664767.3693526692,
+      "gdp": 34421299508.62092,
+      "baseline_total": 132303.13630875733,
+      "change_vs_baseline_pct": -15.330841168679177
+    },
+    {
+      "year": 2033,
+      "scenario": "Mitigation",
+      "total_co2e": 113704.23767364632,
+      "per_capita_co2e": 0.06729101107080473,
+      "per_gdp_co2e": 3.190679445365502e-06,
+      "population": 1689738.8798929593,
+      "gdp": 35636371381.27524,
+      "baseline_total": 134293.58663138855,
+      "change_vs_baseline_pct": -15.331595107558075
+    },
+    {
+      "year": 2034,
+      "scenario": "Mitigation",
+      "total_co2e": 115413.86671830073,
+      "per_capita_co2e": 0.06729338149538266,
+      "per_gdp_co2e": 3.1282272958132854e-06,
+      "population": 1715084.9630913534,
+      "gdp": 36894335291.03425,
+      "baseline_total": 136314.01177441922,
+      "change_vs_baseline_pct": -15.332352693650694
+    },
+    {
+      "year": 2035,
+      "scenario": "Mitigation",
+      "total_co2e": 117149.22150821601,
+      "per_capita_co2e": 0.06729576359692897,
+      "per_gdp_co2e": 3.0669980697522797e-06,
+      "population": 1740811.2375377235,
+      "gdp": 38196705326.807755,
+      "baseline_total": 138364.86372146657,
+      "change_vs_baseline_pct": -15.333113944273022
+    },
+    {
+      "year": 2036,
+      "scenario": "Mitigation",
+      "total_co2e": 118910.68955576286,
+      "per_capita_co2e": 0.06729815743296569,
+      "per_gdp_co2e": 3.0069678123564237e-06,
+      "population": 1766923.406100789,
+      "gdp": 39545049024.844055,
+      "baseline_total": 140446.6012831283,
+      "change_vs_baseline_pct": -15.333878876820151
+    },
+    {
+      "year": 2037,
+      "scenario": "Mitigation",
+      "total_co2e": 120698.66421852133,
+      "per_capita_co2e": 0.0673005630612981,
+      "per_gdp_co2e": 2.9481130381464696e-06,
+      "population": 1793427.2571923009,
+      "gdp": 40940989255.42105,
+      "baseline_total": 142559.69020033174,
+      "change_vs_baseline_pct": -15.3346475087665
+    },
+    {
+      "year": 2038,
+      "scenario": "Mitigation",
+      "total_co2e": 122513.54478760964,
+      "per_capita_co2e": 0.0673029805400164,
+      "per_gdp_co2e": 2.8904107217923724e-06,
+      "population": 1820328.6660501852,
+      "gdp": 42386206176.13741,
+      "baseline_total": 144704.60324925237,
+      "change_vs_baseline_pct": -15.335419857666052
+    },
+    {
+      "year": 2039,
+      "scenario": "Mitigation",
+      "total_co2e": 124355.73657735046,
+      "per_capita_co2e": 0.06730540992749687,
+      "per_gdp_co2e": 2.8338382890959216e-06,
+      "population": 1847633.5960409376,
+      "gdp": 43882439254.15505,
+      "baseline_total": 146881.82034782507,
+      "change_vs_baseline_pct": -15.336195941152878
+    },
+    {
+      "year": 2040,
+      "scenario": "Mitigation",
+      "total_co2e": 126225.65101629595,
+      "per_capita_co2e": 0.06730785128240334,
+      "per_gdp_co2e": 2.7783736081501276e-06,
+      "population": 1875348.0999815518,
+      "gdp": 45431489359.82674,
+      "baseline_total": 149091.82866387308,
+      "change_vs_baseline_pct": -15.336975776941362
+    },
+    {
+      "year": 2041,
+      "scenario": "Mitigation",
+      "total_co2e": 128123.70573963135,
+      "per_capita_co2e": 0.06731030466368869,
+      "per_gdp_co2e": 2.723994980671873e-06,
+      "population": 1903478.3214812747,
+      "gdp": 47035220934.228615,
+      "baseline_total": 151335.1227248784,
+      "change_vs_baseline_pct": -15.33775938282651
+    },
+    {
+      "year": 2042,
+      "scenario": "Mitigation",
+      "total_co2e": 130050.32468297852,
+      "per_capita_co2e": 0.06731277013059608,
+      "per_gdp_co2e": 2.6706811335044257e-06,
+      "population": 1932030.4963034936,
+      "gdp": 48695564233.20688,
+      "baseline_total": 153612.20452941972,
+      "change_vs_baseline_pct": -15.338546776684424
+    },
+    {
+      "year": 2043,
+      "scenario": "Mitigation",
+      "total_co2e": 132005.93817762102,
+      "per_capita_co2e": 0.06731524774266069,
+      "per_gdp_co2e": 2.6184112102865208e-06,
+      "population": 1961010.9537480457,
+      "gdp": 50414517650.63908,
+      "baseline_total": 155923.58366030257,
+      "change_vs_baseline_pct": -15.339337976472425
+    },
+    {
+      "year": 2044,
+      "scenario": "Mitigation",
+      "total_co2e": 133990.9830471711,
+      "per_capita_co2e": 0.06731773755971082,
+      "per_gdp_co2e": 2.5671647632846932e-06,
+      "population": 1990426.1180542663,
+      "gdp": 52194150123.706635,
+      "baseline_total": 158269.77739940747,
+      "change_vs_baseline_pct": -15.340133000229564
+    },
+    {
+      "year": 2045,
+      "scenario": "Mitigation",
+      "total_co2e": 136005.90270570217,
+      "per_capita_co2e": 0.06732023964186959,
+      "per_gdp_co2e": 2.5169217453857155e-06,
+      "population": 2020282.5098250804,
+      "gdp": 54036603623.07348,
+      "baseline_total": 160651.31084428297,
+      "change_vs_baseline_pct": -15.34093186607686
+    },
+    {
+      "year": 2046,
+      "scenario": "Mitigation",
+      "total_co2e": 138051.14725736761,
+      "per_capita_co2e": 0.06732275404955622,
+      "per_gdp_co2e": 2.4676625022459545e-06,
+      "population": 2050586.7474724562,
+      "gdp": 55944095730.96796,
+      "baseline_total": 163068.7170265093,
+      "change_vs_baseline_pct": -15.341734592217762
+    },
+    {
+      "year": 2047,
+      "scenario": "Mitigation",
+      "total_co2e": 140127.1735975297,
+      "per_capita_co2e": 0.06732528084348763,
+      "per_gdp_co2e": 2.419367764594613e-06,
+      "population": 2081345.5486845428,
+      "gdp": 57918922310.271126,
+      "baseline_total": 165522.5370318602,
+      "change_vs_baseline_pct": -15.342541196938237
+    },
+    {
+      "year": 2048,
+      "scenario": "Mitigation",
+      "total_co2e": 142234.4455154202,
+      "per_capita_co2e": 0.06732782008467976,
+      "per_gdp_co2e": 2.372018640687802e-06,
+      "population": 2112565.731914811,
+      "gdp": 59963460267.8237,
+      "baseline_total": 168013.32012229052,
+      "change_vs_baseline_pct": -15.3433516986075
+    },
+    {
+      "year": 2049,
+      "scenario": "Mitigation",
+      "total_co2e": 144373.4337983576,
+      "per_capita_co2e": 0.06733037183444919,
+      "per_gdp_co2e": 2.3255966089105234e-06,
+      "population": 2144254.217893533,
+      "gdp": 62080170415.27787,
+      "baseline_total": 170541.6238597763,
+      "change_vs_baseline_pct": -15.34416611567792
+    },
+    {
+      "year": 2050,
+      "scenario": "Mitigation",
+      "total_co2e": 146544.6163375432,
+      "per_capita_co2e": 0.06733293615441455,
+      "per_gdp_co2e": 2.280083510523629e-06,
+      "population": 2176418.0311619355,
+      "gdp": 64271600430.93717,
+      "baseline_total": 173108.0142320374,
+      "change_vs_baseline_pct": -15.344984466685696
+    }
+  ]
+}
